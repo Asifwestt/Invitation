@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eyes Met</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .gallery img,
+    .gallery video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>First Glance</h1>
+    <div class="gallery">
+      <img src="assets\img\1688549496543[91].jpg" alt="Photo 1">
+      <img src="assets\img\1688549496477[90].jpg" alt="Photo 2">
+      <img src="assets\img\1688549496649.webp" alt="Photo 2">
+      <img src="assets\img\1688549496675.webp
+      " alt="Photo 2">
+      <img src="assets\img\1688549496686.webp" alt="Photo 2">
+      <img src="assets\img\1688549496686.webp" alt="Photo 2">
+      <video controls>
+        <source src="assets\img\VID_37801121_184249_967.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+      
+      <video controls>
+        <source src="assets\img\VID_37811127_004144_173.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      
+
+      <video controls>
+        <source src="assets\img\VID_37820323_010344_065.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Add more <img> and <video> elements for additional media -->
+    </div>
+  </div>
+  
+</body>
+</html>
